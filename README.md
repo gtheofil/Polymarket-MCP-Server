@@ -6,3 +6,6 @@ The agent:
 * Scrapes Polymarket for active crypto-related markets and probabilities
 * Retrieves relevant news via NewsAPI and summarizes sentiment
 * Uses an LLM-based decision module to select one actionable market
+
+To run:
+pip install -e .
