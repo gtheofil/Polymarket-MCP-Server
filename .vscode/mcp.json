@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "polymarket": {
+      "type": "stdio",
+      "command": "conda",
+      "args": [
+        "run",
+        "-n", "mcp_env",
+        "--no-capture-output",
+        "python",
+        "-m", "polymarket_mcp.server"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
