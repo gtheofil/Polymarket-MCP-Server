@@ -1,6 +1,4 @@
 # Polymarket-MCP-Server
-A custom MCP server that scrapes real-time market data from Polymarket and aggregates relevant news.
-
 This project is an MCP server that an autonomous betting agent can use to generate predictions by combining Polymarket market data with real-time news sentiment. 
 
 The agent:
