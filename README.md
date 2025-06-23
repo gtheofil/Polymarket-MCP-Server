@@ -7,5 +7,7 @@ The agent:
 * Retrieves relevant news via NewsAPI and summarizes sentiment
 * Uses an LLM-based decision module to select one actionable market
 
-To run:
+Sundai Club: https://www.sundai.club/projects/3346c0e4-1466-4315-a02e-f95b371da259
+
+# Requirements
 pip install -e .
