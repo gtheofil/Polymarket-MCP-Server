@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "polymarket_mcp"
 version = "0.1.0"
-description = "MCP Server for PolyMarket API"
+description = "MCP Server scraping Polymarket data and using News API to provide market insights."
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=0.1.0",
